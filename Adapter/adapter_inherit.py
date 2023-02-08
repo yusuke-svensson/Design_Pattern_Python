@@ -25,7 +25,6 @@ class PrintBanner(Banner,Print):
         self.showWithAster()
         
 if __name__ =="__main__":
-    mode=0
     p=PrintBanner("Hello World")
     p.printWeak()
     p.printStrong()
