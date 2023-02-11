@@ -13,6 +13,7 @@ class Print(metaclass=abc.ABCMeta):
     @abc.abstractclassmethod
     def printWeak(self) ->None:
         pass
+    @abc.abstractclassmethod
     def printStrong(self) ->None:
         pass
 
